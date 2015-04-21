@@ -58,6 +58,7 @@ class consul (
   $service_enable    = true,
   $service_ensure    = 'running',
   $manage_service    = true,
+  $install_init      = true,
   $init_style        = $consul::params::init_style,
   $services          = {},
   $watches           = {},
